@@ -1,0 +1,39 @@
+\documentclass[10pt,letterpaper]{report}
+%for roman numeral sectioning
+\renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
+
+%make 1 inch margins.
+\usepackage[margin=1in]{geometry}
+
+%page number top right (comment it all out if you want page num on bottom middle)
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+
+%underline section titles
+%\usepackage[explicit]{titlesec}
+%\usepackage{ulem}
+%
+%\titleformat{\section}
+%  {\normalfont\large\itshape}{\thesection}{1em}{\uline{#1}}
+  
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{setspace}
+\doublespacing
+\author{Molly LoShiavo, Kevin Boehme, Corianne Galloway}
+\title{Comparative Report of the Oxford Nanopore sequencing technology and current sequencers}
+\begin{document}
+%\maketitle
+
+\centering\textbf{Comparative Report of the Oxford Nanopore sequencing technology and current sequencers}
+\section{Introduction}
+hey this is the first section
+\section{Comparison}
+\section{Conclusions}
+\end{document}
