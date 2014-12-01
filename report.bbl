@@ -1,0 +1,83 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Shendure and Ji(2008)]{Shendure}
+Shendure, J. and Ji, H.
+\newblock Next-generation dna sequencing.
+\newblock \emph{Nature biotechnology}, 26\penalty0 (10):\penalty0 1135--1145,
+  2008.
+
+\bibitem[Salto-Tellez and de~Castro(2014)]{Salto-Tellez}
+Salto-Tellez, M. and Castro, D.~G., de.
+\newblock Next-generation sequencing: a change of paradigm in molecular
+  diagnostic validation.
+\newblock \emph{The Journal of pathology}, 234\penalty0 (1):\penalty0 5--10,
+  2014.
+
+\bibitem[Maitra et~al.(2012)Maitra, Kim, and Dunbar]{Maitra}
+Maitra, R.~D., Kim, J., and Dunbar, W.~B.
+\newblock Recent advances in nanopore sequencing.
+\newblock \emph{Electrophoresis}, 33\penalty0 (23):\penalty0 3418--3428, 2012.
+
+\bibitem[Kelman and O'Donnell(1995)]{kelman}
+Kelman, Z. and O'Donnell, M.
+\newblock Dna polymerase iii holoenzyme: structure and function of a
+  chromosomal replicating machine.
+\newblock \emph{Annual review of biochemistry}, 64\penalty0 (1):\penalty0
+  171--200, 1995.
+
+\bibitem[nan()]{nanoporesite}
+Oxford nanopore technologies.
+\newblock URL \url{https://www.nanoporetech.com/}.
+
+\bibitem[National{\ }Human{\ }Genome{\ }Research{\ }Institute{\
+  }(NHGRI)(2014)]{nhgriseqcosts}
+National{\ }Human{\ }Genome{\ }Research{\ }Institute{\ }(NHGRI).
+\newblock Dna sequencing costs, 2014.
+\newblock URL \url{http://www.genome.gov/sequencingcosts/}.
+
+\bibitem[Bao et~al.(2011)Bao, Jiang, Kwan, Wang, Ma, and Song]{Bao}
+Bao, S., Jiang, R., Kwan, W., Wang, B., Ma, X., and Song, Y.-Q.
+\newblock Evaluation of next-generation sequencing software in mapping and
+  assembly.
+\newblock \emph{Journal of human genetics}, 56\penalty0 (6):\penalty0 406--414,
+  06 2011.
+
+\bibitem[van Dijk et~al.(2014)van Dijk, Jaszczyszyn, Thermes, and
+  Auger]{van_Dijk}
+Dijk, E., van, Jaszczyszyn, Y., Thermes, C., and Auger, H.
+\newblock Ten years of next-generation sequencing technology.
+\newblock \emph{Trends in genetics}, 30\penalty0 (9):\penalty0 418--426, 2014.
+
+\bibitem[Loman et~al.(2012)Loman, Misra, Dallman, Constantinidou, Gharbia,
+  Wain, and Pallen]{Loman}
+Loman, N., Misra, R., Dallman, T., Constantinidou, C., Gharbia, S., Wain, J.,
+  and Pallen, M.
+\newblock Performance comparison of benchtop high-throughput sequencing
+  platforms.
+\newblock \emph{Nature biotechnology}, 30\penalty0 (6):\penalty0 562--562,
+  2012.
+
+\bibitem[Mikheyev and Tin(2014)]{Mikheyev}
+Mikheyev, A.~S. and Tin, M.~M.
+\newblock A first look at the oxford nanopore minion sequencer.
+\newblock \emph{Molecular ecology resources}, 14\penalty0 (6):\penalty0
+  1097--1102, 2014.
+
+\bibitem[Quick et~al.(2014)Quick, Quinlan, and Loman]{Quick}
+Quick, J., Quinlan, A.~R., and Loman, N.~J.
+\newblock A reference bacterial genome dataset generated on the minion portable
+  single-molecule nanopore sequencer.
+\newblock \emph{GigaScience}, 3:\penalty0 22, 2014.
+
+\bibitem[Karow()]{karownotready}
+Karow, J.
+\newblock Minion review by early access user suggests technology not ready for
+  routine use yet.
+\newblock URL \url{https://www.genomeweb.com/}.
+
+\end{thebibliography}

@@ -1,0 +1,27 @@
+\select@language {english}
+\contentsline {chapter}{List of Figures}{iv}
+\contentsline {chapter}{List of Tables}{v}
+\contentsline {section}{\numberline {I}Introduction}{1}
+\contentsline {section}{\numberline {II}Background}{2}
+\contentsline {subsection}{Introduction to Sequencing}{2}
+\contentsline {subsection}{Illumina}{3}
+\contentsline {subsection}{Ion Torrent}{4}
+\contentsline {subsection}{PacBio}{5}
+\contentsline {subsection}{Oxford Nanopore}{5}
+\contentsline {section}{\numberline {III}Methodology}{6}
+\contentsline {subsection}{Cost per Megabase/Genome}{6}
+\contentsline {subsection}{Time per Run}{7}
+\contentsline {subsection}{Throughput per Run}{8}
+\contentsline {subsection}{Reservations}{8}
+\contentsline {subsubsection}{Validity of Machine Comparison}{8}
+\contentsline {subsubsection}{Sources of MinIon data}{9}
+\contentsline {subsubsection}{MinIon results vary by technology}{9}
+\contentsline {section}{\numberline {IV}Data Summary}{10}
+\contentsline {subsection}{Cost Per Megabase/Genome}{10}
+\contentsline {subsection}{Time Per Run}{11}
+\contentsline {subsection}{Throughput per Run}{11}
+\contentsline {section}{\numberline {V}Discussion}{12}
+\contentsline {section}{\numberline {VI}Conclusion}{13}
+\contentsline {chapter}{References}{13}
+\contentsline {chapter}{Appendix}{16}
+\contentsline {section}{\numberline {I}Glossary}{16}
