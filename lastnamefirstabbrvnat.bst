@@ -423,7 +423,7 @@ FUNCTION {format.date}
   month empty$
     'skip$
     { month
-      " " * swap$ *
+      " (" * swap$ * ")"
     }
   if$
   extra.label *

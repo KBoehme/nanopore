@@ -46,7 +46,7 @@ STRINGS { s t }
 FUNCTION {output.nonnull}
 { 's :=
   output.state mid.sentence =
-    { ", " * write$ }
+    { " " * write$ }
     { output.state after.block =
         { add.period$ write$
           newline$
@@ -185,7 +185,7 @@ FUNCTION {format.names}
               if$
               t "others" =
                 { " et~al." * }
-                { " and " * t * }
+                { " \& " * t * }
               if$
             }
           if$
@@ -241,7 +241,7 @@ FUNCTION {format.issn}
 FUNCTION {format.url}
 { url empty$
     { "" }
-    { new.block "URL \url{" url * "}" * }
+    { new.block "" url * "" * }
   if$
 }
 
@@ -371,22 +371,26 @@ FUNCTION {n.dashify}
 }
 
 FUNCTION {format.date}
-{ year duplicate$ empty$
-    { "empty year in " cite$ * warning$
-       pop$ "" }
-    'skip$
+{  year duplicate$ empty$
+    { "empty year in " cite$ * "; set to ????" * warning$
+       pop$ "????" }
+    'skip$ 
   if$
-  month empty$
-    'skip$
-    { month
-      " " * swap$ *
-    }
-  if$
+  " (" swap$ * * ")" *
   extra.label *
+  before.all 'output.state :=
+  after.sentence 'output.state :=
 }
 
 FUNCTION {format.btitle}
 { title emphasize
+}
+
+FUNCTION {bold} %% kmh - new function like emphasize
+{ duplicate$ empty$
+    { pop$ "" }
+    { "{\bf " swap$ * "}" * }
+  if$
 }
 
 FUNCTION {tie.or.space.connect}
@@ -407,7 +411,7 @@ FUNCTION {either.or.check}
 FUNCTION {format.bvolume}
 { volume empty$
     { "" }
-    { "volume" volume tie.or.space.connect
+    { "volume" volume bold tie.or.space.connect
       series empty$
         'skip$
         { " of " * series emphasize * }
@@ -503,7 +507,7 @@ FUNCTION {format.vol.num.pages}
     'skip$
     { duplicate$ empty$
         { pop$ format.pages }
-        { ":\penalty0 " * pages n.dashify * }
+        { ", \penalty0 " * pages n.dashify * }
       if$
     }
   if$
@@ -679,6 +683,19 @@ FUNCTION {article}
   format.url output
   new.block
   note output
+  fin.entry
+}
+
+FUNCTION {online}
+{ output.bibitem
+  format.authors "author" output.check
+  author format.key output
+  new.block
+  format.title "title" output.check
+  new.block
+  note "note" output.check
+  format.url output
+  format.date output
   fin.entry
 }
 

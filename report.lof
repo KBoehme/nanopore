@@ -1,8 +1,9 @@
 \select@language {english}
 \contentsline {figure}{\numberline {1}{\ignorespaces Illumina}}{4}
-\contentsline {figure}{\numberline {2}{\ignorespaces PacBio}}{5}
-\contentsline {figure}{\numberline {3}{\ignorespaces Oxford Nanopore}}{5}
-\contentsline {figure}{\numberline {4}{\ignorespaces Cost Per Megabase}}{10}
-\contentsline {figure}{\numberline {5}{\ignorespaces Time Per Run}}{11}
-\contentsline {figure}{\numberline {6}{\ignorespaces Cost Per Megabase}}{11}
-\contentsline {figure}{\numberline {7}{\ignorespaces Throughput Per Hour}}{12}
+\contentsline {figure}{\numberline {2}{\ignorespaces PacBio}}{6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Oxford Nanopore}}{6}
+\contentsline {figure}{\numberline {4}{\ignorespaces Cost per Megabase}}{11}
+\contentsline {figure}{\numberline {5}{\ignorespaces Time per Run}}{12}
+\contentsline {figure}{\numberline {6}{\ignorespaces Output per Run}}{12}
+\contentsline {figure}{\numberline {7}{\ignorespaces Throughput Equation}}{13}
+\contentsline {figure}{\numberline {8}{\ignorespaces Throughput (Output per hour)}}{13}

@@ -1,12 +1,51 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
 The style file: lastfirstabbrunsrtednat.bst
 Database file #1: references.bib
-Warning--entry type for "nhgriseqcosts" isn't style-file defined
---line 122 of file references.bib
-Warning--entry type for "karownotready" isn't style-file defined
---line 130 of file references.bib
-Warning--entry type for "nanoporesite" isn't style-file defined
---line 169 of file references.bib
-Warning--empty year in nanoporesite
-Warning--empty year in karownotready
-(There were 5 warnings)
+You can't pop an empty literal stack for entry Quick
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+You can't pop an empty literal stack for entry Shendure
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+You can't pop an empty literal stack for entry Salto-Tellez
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+You can't pop an empty literal stack for entry Maitra
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+Warning--empty author in illuminafigure
+Warning--empty note in illuminafigure
+You can't pop an empty literal stack for entry illuminafigure
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+Warning--empty note in pacbiofigure
+You can't pop an empty literal stack for entry pacbiofigure
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+You can't pop an empty literal stack for entry kelman
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+Warning--empty note in oxfordfigure
+You can't pop an empty literal stack for entry oxfordfigure
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+Warning--empty author in nanoporesite
+Warning--empty note in nanoporesite
+You can't pop an empty literal stack for entry nanoporesite
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+You can't pop an empty literal stack for entry Xuan
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+Warning--empty note in nhgriseqcosts
+You can't pop an empty literal stack for entry nhgriseqcosts
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+You can't pop an empty literal stack for entry van_Dijk
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+You can't pop an empty literal stack for entry Loman
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+You can't pop an empty literal stack for entry Mikheyev
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+Warning--empty author in nhgrifaq
+Warning--empty note in nhgrifaq
+You can't pop an empty literal stack for entry nhgrifaq
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+Warning--empty author in illuminasite
+Warning--empty note in illuminasite
+You can't pop an empty literal stack for entry illuminasite
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+Warning--empty author in pacbiosite
+Warning--empty note in pacbiosite
+You can't pop an empty literal stack for entry pacbiosite
+while executing---line 1286 of file lastfirstabbrunsrtednat.bst
+(There were 17 error messages)
